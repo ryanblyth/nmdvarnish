@@ -1,5 +1,6 @@
 ---
 driver:
+  vagrantfile_erb: <%= ENV['NMDCHEF_REPO_LOCAL'] %>/Vagrantfile.erb
   name: vagrant
 
 provisioner:
